@@ -1,0 +1,26 @@
+﻿UNIT TEST:
+
+The program runs like this. 
+1.Select the Punter (Joe, Bob, Al)
+2. Set your bet amount (i.e. between 5 to 20 as min. is $5 and max. is $20) on a particular dog.
+3. Press RACE button.
+4. if the Bettor wins he will get the bet amount else he looses the bet amount.
+5. When all bettor looses, game is over.
+
+TEST CASES:
+1. Punter.cs class 
+	> Is the Abstract class having some abstract methods.
+
+2. Bet.cs class
+	>  contains the bet amount.
+	> the dog on which bet is placed.
+	> the guy who placed the bet.
+
+3. Guy.cs class
+	> this class is inherited from punter abstract class and implemented its methods.
+	> defines the guy who placed the bet of some amount on a particular dog
+
+4.GreyHound.cs
+	> defines starting position of dog.
+	> defines race track length.
+	> location of dogs.
